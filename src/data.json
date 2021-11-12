@@ -1,0 +1,134 @@
+
+
+{
+"products":[
+{
+    "_id":"dress1",
+    "image":"/images/12064273040195392_1.jpg",
+    "title" :"Cat Tee Black T-shirt",
+    "availableSizes" : [ "XS" , "S" ,"XL"],
+    "price" : 10.90 
+ },
+ {
+    "_id" : "dress2",
+    "image" : "/images/51498472915966370_1.jpg",
+    "title" :"Dark Thug Blue-Navy T-Shirt",
+    "availableSizes" : [ "M"],
+    "price" : 29.45  
+ },
+ {
+    "_id" : "dress3",
+    "image" : "/images/10686354557628304_1.jpg",
+    "title" :"Sphynx Tie Dye Wine T-Shirt",
+    "availableSizes" : ["L" ,"XL"],
+    "price" : 9.00  
+ },
+ 
+ {
+    "_id" : "dress4",
+    "image" : "/images/11033926921508488_1.jpg",
+    "title" :"Skull",
+    "availableSizes" : ["L",  "XL" , "XXL"],
+    "price" : 14.00  
+ },
+ {
+    "_id" : "dress5",
+    "image" : "/images/39876704341265610_1.jpg",
+    "title" :"Wine Skull T-shirt",
+    "availableSizes" : [ "L"],
+    "price" : 13.25  
+ }
+,
+{
+    "_id" : "dress6",
+    "image" : "/images/8552515751438644_1.jpg",
+    "title" :"Cat Tee Black T-shirt",
+    "availableSizes" : [ "L" , "XXL"],
+    "price" : 10.90  
+ }
+
+ ,{
+    "_id" : "dress7",
+    "image" : "/images/18644119330491310_1.jpg",
+    "title" :"Sphynx Tie Dye Wine T-Shirt",
+    "availableSizes" : ["L", "XL" ,"XXL"],
+    "price" : 10.90  
+ }
+
+ ,{
+    "_id" : "dress8",
+    "image" : "/images/11854078013954528_1.jpg",
+    "title" :"Danger Knif Grey",
+    "availableSizes" : ["L" ],
+    "price" : 14.90  
+ }
+
+ ,{
+    "_id" : "dress9",
+    "image" : "/images/876661122392077_1.jpg",
+    "title" :"White DGK Script Tree",
+    "availableSizes" : [ "L"],
+    "price" : 14.90  
+ }
+
+ ,{
+    "_id" : "dress10",
+    "image" : "/images/9197907543445676_1.jpg",
+    "title" :"born on the Streets",
+    "availableSizes" : ["XL" ],
+    "price" : 25.90
+ }
+
+ ,{
+    "_id" : "dress11",
+    "image" : "/images/10547961582846888_1.jpg",
+    "title" :"Tso 3D Short Sleeve T-Shirt A",
+    "availableSizes" : ["L" ,"XL" ],
+    "price" : 10.90 
+ },
+ {
+    "_id" : "dress12",
+    "image" : "/images/6090484789343891_1.jpg",
+    "title" :"Man Tie Dye Cinza Grey T-Shirt",
+    "availableSizes" : ["XL", "XXL" ],
+    "price" : 49.90  
+ }
+
+ ,{
+    "_id" : "dress13",
+    "image" : "/images/18532669286405344_1.jpg",
+    "title" :"Crazy monkey Black T-shirt",
+    "availableSizes" : ["S" ],
+    "price" : 22.50
+ }
+
+ ,{
+    "_id" : "dress14",
+    "image" : "/images/5619496040738316_1.jpg",
+    "title" :"Tso 3D Black T-shirt",
+    "availableSizes" : [ "XL"],
+    "price" : 18.70 
+ }
+ ,{
+    "_id" : "dress15",
+    "image" : "/images/11600983276356164_1.jpg",
+    "title" :"Crazy Monkey Grey",
+    "availableSizes" : ["L","XL" ],
+    "price" : 134.90  
+ }
+ ,{
+    "_id" : "dress16",
+    "image" : "/images/27250082398145996_1.jpg",
+    "title" :"On the Street Black T-Shirt",
+    "availableSizes" : ["L" ],
+    "price" : 49.00  
+ }
+
+
+
+
+ 
+
+]
+}
+

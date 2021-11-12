@@ -1,0 +1,283 @@
+html{
+  font-size: medium;
+  box-sizing: border-box ;
+
+  background-color:rgb(245, 235, 235);
+
+}
+body , #root{
+  height : 100vh ;
+  margin: 0 ;
+}
+ 
+body , input , select , textarea{
+  font-size: 1.6rem ;
+}
+.grid-Container{
+  display:  grid ;
+  grid-template-areas: "header" "main" "sidebar"  ;
+  grid-template-rows: 1fr 3fr 1fr ;
+  grid-template-columns: 1fr ;
+
+}
+.git-image{
+  height: 50px ; 
+  width: 50px ;
+  position: absolute;;
+  left: 0;
+  top:0;
+}
+
+.check-out{
+  position: fixed ;
+  bottom: 20px; 
+  right: 70px ;
+  font-size: 40px ;
+  font-weight: 20px ;
+ 
+}
+.check-out button{
+  background-color :rgb(216, 75, 75);
+  color: wheat;
+  border-radius: 20px;
+}
+header{
+  display: flex ; 
+  grid-area:  header ;
+  background-color: blue;
+  color: wheat ;
+  justify-content: space-around ;
+}
+main{
+  grid-area:main ;
+
+  
+}
+footer{
+  grid-area:footer ; 
+}
+.content{
+  display:flex ;
+  flex-wrap:wrap;
+
+}
+.main{
+  display:flex
+}
+.sizeText{
+  margin-top: 50px ;
+  margin-left: 10px ;
+  margin-bottom: 5px;
+  font-size: 20px ;
+}
+
+
+/* products display
+ */
+ li img{
+   height:300px ;
+   width: 200px ;
+ }
+ li img:hover{
+   border:2px solid rgb(190, 172, 172);
+ }
+
+ .products{
+   display:flex ; 
+   /* justify-content: center; */
+   align-items: center;
+   height: 100vh;
+   width: 80% ;
+  
+   padding: 0;
+   list-style-type: none ;
+   flex-wrap: wrap;
+   /* width:200px; */
+   min-width: 80% ;
+ }
+
+ .products li{
+   /* height: 90%; */
+  
+   padding: 20px ;
+   
+
+ }
+ .empty-cart{
+   position: absolute;
+   top:30px;
+   right: 20px ;
+ }
+a{
+  text-decoration: none;
+}
+ .product{
+   position:relative;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* height: 60%; */
+  align-items: center;
+  padding-top: 30px; 
+  padding-left:-300px;
+
+ }
+
+ .product img{
+   max-height:20rem ;
+   max-width: 20rem;
+ }
+ .product-price{
+    display:static
+   /* justify-content: space-between;
+   align-items: center; */
+ }
+ .product-price div , 
+ .product-price button {
+text-align: center;
+ }
+
+ .product-price div{
+   font-size: 2rem ;
+ }
+.product-title{
+  text-align: center;
+  font-size: 17px ;
+  font-weight: 5px ;
+  color: brown;
+  font-weight: 10px;
+}
+
+.clothSizeButton{
+  /* background-color: #04AA6D; */
+  /* margin-top: 30px; */
+
+/* padding-top: 20px; */
+    height: 80px;
+    line-height: 40px;  
+    width: 80px;  
+    font-size:3px;
+    font-weight: bold;
+    border-radius: 50%;
+    /* background-color: #4CAF50; */
+   
+    text-align: center;
+   
+  
+
+}
+
+/* button{
+  background-color: rgb(24, 5, 5);
+  padding:10px 50px 10px 50px   ;
+  font-size: 20px ;
+color: white
+} */
+button:hover{
+  background-color: rgb(187, 187, 17) ;
+}
+
+/* filter pattern
+ */
+.filter-sort{
+  position: absolute ; 
+  right:420px ;
+  top: 30px ;
+  font-size: 20px;
+}
+.select-order{
+  font-size: 12px;
+  
+}
+.right-part{
+  display: flex ;
+  flex-wrap: nowrap;
+}
+.cart-button{
+  color: white;
+  background-color: black;
+  display: flex ;
+  flex-wrap: nowrap;
+}
+
+.free-shiping{
+  position: relative ;
+  /* top:30px;
+  left :180px ;  */
+  font-size: 15px;
+  background-color: rgb(85, 73, 73);
+  color: white;
+  text-align: center;
+  height:20px ;
+  width: 205px ;
+}
+.total{
+  font-size: 20px ;
+  font-weight: 10px ;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.cart{
+
+padding:5px ;
+margin: 5px ;
+display: flex;
+flex-wrap: wrap ;
+font-size: 15px;
+position:absolute;
+left: 70% ;
+top:40px;
+background-color: rgb(243, 215, 159);
+/* width: 100vh; */
+
+}
+
+
+
+.cart-header{
+
+border-bottom: 0.1rem gray solid  ;
+text-align: center ;
+position: absolute;
+/* top:20px ;
+right: 20px ; */
+left: 70%; 
+top: 20px;
+margin: 5px;
+background-color: rgb(238, 195, 180);
+width: 100vh;
+}
+.cart-items{
+  padding: 0px ; ;
+  width: 30%;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+.cart-items img {
+  width : 60px ;
+  height: 100px;
+
+}
+.cart-items li{
+  display: flex; ;
+
+}
+.cart-items li div{
+  padding: .5rem ; 
+
+}
+
+.filter-result{
+ 
+ position: absolute;
+ left:100px ;
+ top:30px ;
+ font-size: 25px;
+ 
+ 
+}
+.content{
+display: flex;
+}
